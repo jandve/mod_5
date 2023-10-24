@@ -1,4 +1,61 @@
 {
+  "area": [
+    {
+      "id": 1,
+      "name": "finances",
+      "userInCharge": "Jose",
+      "amountOfEmployees": 4,
+      "active": true
+    },
+    {
+      "id": 11,
+      "name": "finances",
+      "userInCharge": "Jose",
+      "amountOfEmployees": 4,
+      "active": false
+    },
+    {
+      "name": "ventas",
+      "active": false,
+      "id": 12,
+      "userInCharge": "test user",
+      "amountOfEmployees": 0
+    }
+  ],
+  "asset": [
+    {
+      "id": 1,
+      "type": "computer",
+      "model": "macbook",
+      "condition": "usado",
+      "areaId": 1,
+      "active": true
+    },
+    {
+      "type": "perifericos",
+      "model": "2023",
+      "condition": "nuevo",
+      "areaId": 1,
+      "id": 2,
+      "active": true
+    },
+    {
+      "type": "asdfasdfadsf",
+      "model": "asdf",
+      "condition": "nuevo",
+      "areaId": null,
+      "active": true,
+      "id": 3
+    },
+    {
+      "type": "ewewe",
+      "model": "wewww",
+      "condition": "desuso",
+      "areaId": null,
+      "active": true,
+      "id": 4
+    }
+  ],
   "categories": [
     {
       "name": "Gaseosas",
