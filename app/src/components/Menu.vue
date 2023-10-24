@@ -14,7 +14,6 @@
 
   <ul class="sidenav" id="mobile-demo">
     <li><router-link to="/">Inicio</router-link></li>
-    <li><router-link to="/about">Nosotros</router-link></li>
     <li><router-link to="/area">Area</router-link></li>
     <li><router-link to="/asset">Assets</router-link></li>
   </ul>

@@ -4,21 +4,7 @@ import HomeView from '../views/HomeView.vue';
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    meta: {
-      requireAuth: true,
-      verificarRol: true,
-      rol: 'admin',
-    },
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
+    redirect: '/area',
   },
   {
     path: '/area',
@@ -33,12 +19,6 @@ const routes = [
   {
     path: '/asset',
     name: 'asset',
-    meta: {
-      requireAuth: false,
-      verificarRol: true,
-      rol: 'admin',
-      precondicion: 'asset',
-    },
     component: () => import(/* webpackChunkName: "producto" */ '../views/assets/index.vue'),
   },
   {
