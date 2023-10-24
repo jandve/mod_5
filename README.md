@@ -1,5 +1,7 @@
 # README #
 
+### To load this project see readme inside app file
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
